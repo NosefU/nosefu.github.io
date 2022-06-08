@@ -3034,14 +3034,14 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #000;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  color: #333;
+  background-color: #aaa;
+  border-color:  #aaa;
 }
 .btn-primary:hover {
-  color: #000;
-  background-color: #c77556;
-  border-color: #c46d4c;
+  color: #333;
+  background-color: #cf3;
+  border-color: #cf3;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #000;
@@ -4894,7 +4894,7 @@ textarea.form-control-lg {
   font-size: 0.75em;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
+  color: #333;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -11396,7 +11396,7 @@ p.lead {
   width: 3.5rem;
   background-color: #aaa;
   color: #333;
-  border-radius: 100%;
+  border-radius: 6rem;
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
