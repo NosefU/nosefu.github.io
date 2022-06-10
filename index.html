@@ -30,7 +30,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Опыт работы</a></li>
 <!--                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Образование</a></li>-->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Ключевые навыки</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Увлечения</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Увлечения и пет-проекты</a></li>
 <!--                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>-->
                 </ul>
             </div>
@@ -49,15 +49,14 @@
                         <a href="mailto:nosefu@gmail.com">nosefu@gmail.com</a>
                     </div>
                     <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                    <div class="social-icons" style="margin-top: -1rem">
-                        <a class="social-icon" style="margin-top: 1rem" href="https://github.com/NosefU"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" style="margin-top: 1rem" href="#!"><i class="fab fa-telegram"></i></a>
-                        <a class="social-icon" style="margin-top: 1rem" href="#!"><i class="fab fa-vk"></i></a>
-                        <a class="social-icon" style="width: auto; padding-right: 1.5rem; padding-left: 1.5rem; margin-top: 1rem; text-decoration: none; font-size: 1rem" href="#">
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://github.com/NosefU" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://t.me/atmega" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a class="social-icon" href="https://vk.com/nosefu" target="_blank"><i class="fab fa-vk"></i></a>
+                        <a class="social-icon social_button" href="#">
                             <i class="fa-solid fa-file-pdf me-2" style="font-size: 1.5rem"></i>
                             Скачать резюме
                         </a>
-<!--                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>-->
                     </div>
 
                 </div>
@@ -217,12 +216,14 @@
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Пет-проекты</h2>
+                    <h2 class="mb-5">Увлечения и пет-проекты</h2>
 <!--                    <p>В свободное время реализовал ряд небольших проектов, среди которых:</p>-->
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-3">Агрегатор сеансов с сайтов кинотеатров</h3>
-                            <img class="img-fluid mb-3" src="assets/img/interests/cinema_scraper.jpg">
+
+                            <img class="d-block w-100 mb-3" src="assets/img/interests/cinema_scraper.jpg">
+
                             <p>
                                 Разбит на два сервиса: сервис скрапинга и сервис вывода информации.
                             </p>
@@ -230,13 +231,10 @@
                                 <li class="mb-3">
                                     <h6 class="mb-0">
                                         Сервис скрапинга
-                                        <a class="ms-2" href="https://github.com/NosefU/cinema_aggregator_scraper">
+                                        <a class="ms-2" href="https://github.com/NosefU/cinema_aggregator_scraper" target="_blank">
                                             <i class="fab fa-github me-1"></i>
                                             Проект на GitHub
                                         </a>
-<!--                                        <a class="ms-2" href="https://github.com/NosefU/cinema_aggregator_scraper">-->
-<!--                                            <i class="fab fa-github"></i>-->
-<!--                                        </a>-->
                                     </h6>
                                     Cкрапинг данных с сайтов кинотеатров осуществляется с помощью
                                     requests, selenium и bs4, сохраняется в бд на postgresql через sqlalchemy.
@@ -246,7 +244,7 @@
                                 <li class="mb-3">
                                     <h6 class="mb-0">
                                         Сервис вывода информации
-                                        <a class="ms-2" href="https://github.com/NosefU/cinema_aggregator_backend">
+                                        <a class="ms-2" href="https://github.com/NosefU/cinema_aggregator_backend" target="_blank">
                                             <i class="fab fa-github me-1"></i>
                                             Проект на GitHub
                                         </a>
@@ -264,7 +262,33 @@
                                 Расширение для Chrome, <br>
                                 которое позволяет присваивать метки пользователям pikabu.ru
                             </h3>
-                            <img class="img-fluid mb-3" src="assets/img/interests/pikabu_badges.png">
+
+                            <div id="chromeExtensionImages" class="carousel slide mb-3" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#chromeExtensionImages" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#chromeExtensionImages" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#chromeExtensionImages" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/img/interests/pikabu_badges.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/interests/pikabu_badges2.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/interests/pikabu_badges3.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#chromeExtensionImages"  data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Предыдущий</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#chromeExtensionImages"  data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Следующий</span>
+                                </button>
+                            </div>
                             <p>
                                 Серьёзный недостаток имеющихся на Пикабу заметок — для того, чтобы их посмотреть,
                                 приходится либо вызывать всплывающую панель профиля, либо переходить в сам профиль пользователя.
@@ -285,11 +309,11 @@
                                 выложить расширение и проверить функционал синхронизации.
                             </p>
                             <p style="margin-bottom: -0.5rem !important;">
-                                <a class="btn btn-primary me-2 mb-2" href="https://github.com/NosefU/pikabu_badges">
+                                <a class="btn btn-primary me-2 mb-2" href="https://github.com/NosefU/pikabu_badges" target="_blank">
                                     <i class="fab fa-github me-1"></i>
                                     Проект на GitHub
                                 </a>
-                                <a class="btn btn-primary mb-2" href="https://pikabu.ru/story/rasshirenie_dlya_sozdaniya_zametok_dlya_polzovateley_9152585">
+                                <a class="btn btn-primary mb-2" href="https://pikabu.ru/story/rasshirenie_dlya_sozdaniya_zametok_dlya_polzovateley_9152585" target="_blank">
                                     Больше подробностей и скриншотов
                                 </a>
                             </p>
@@ -309,7 +333,7 @@
                                 значительно упростилась работа над написанием и отладкой мелодий.
                             </p>
                             <p style="margin-bottom: -0.5rem !important;">
-                                <a class="btn btn-primary me-2 mb-2" href="https://github.com/NosefU/ArduinoProgrammableSoundGenerator">
+                                <a class="btn btn-primary me-2 mb-2" href="https://github.com/NosefU/ArduinoProgrammableSoundGenerator" target="_blank">
                                     <i class="fab fa-github me-1"></i>
                                     Проект на GitHub
                                 </a>
@@ -319,8 +343,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-3">Телеграм-бот, мониторящий новые коммиты в репозитории</h3>
-                            <img class="img-fluid mb-3" src="assets/img/interests/git_notifier.png">
-
+                            <img class="d-block w-100 mb-3" src="assets/img/interests/git_notifier.png">
                             <p>
                                 В момент начала моего обучения у сервиса был лишь один канал уведомлений:
                                 электронная почта. Письмо отправлялось в тот момент, когда преподаватель
@@ -338,9 +361,70 @@
                                 (хотя и обновлений в репозитории не было уже давно).
                             </p>
                             <p style="margin-bottom: -0.5rem !important;">
-                                <a class="btn btn-primary me-2 mb-2" href="https://github.com/NosefU/telegram-commit-notifier">
+                                <a class="btn btn-primary me-2 mb-2" href="https://github.com/NosefU/telegram-commit-notifier" target="_blank">
                                     <i class="fab fa-github me-1"></i>
                                     Проект на GitHub
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-3">Переделка таксофона АМТ-69 под сотовую связь</h3>
+                            <div id="amt69Images" class="carousel slide mb-3" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#amt69Images" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#amt69Images" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#amt69Images" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/img/interests/amt-69-1.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/interests/amt-69-2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/interests/amt-69-3.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#amt69Images"  data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Предыдущий</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#amt69Images"  data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Следующий</span>
+                                </button>
+                            </div>
+                            <p>
+                                С помощью Arduino Nano и модуля SIM900 таксофону АМТ-69 была подарена новая жизнь.
+                                Старался сделать всё максимально антуражно, поэтому реализовал следующий функционал:
+                            </p>
+                            <ul>
+                                <li>при входящем вызове звучит "правильный" звонок — тарахтение по колокольчикам;</li>
+                                <li>ответ на звонок поднятием трубки;</li>
+                                <li>завершение звонка опусканием трубки на рычаг;</li>
+                                <li>входящие и исходящие вызовы работают без нареканий;</li>
+                                <li>номера экстренных служб, набранные в старом формате (01, 02...), автоматически преобразуются в номера нового формата (101, 102...); </li>
+                                <li>при поднятии трубки звучит гудок;</li>
+                                <li>при наборе номера в трубке звучат DTMF-сигналы;</li>
+                                <li>при окончании разговора в трубке звучат короткие гудки (вышеперечисленные сигналы генерируются в соответствии со стандартами);</li>
+                                <li>работа от АКБ 12В.</li>
+                            </ul>
+
+                            <p>
+                                От функционала монетоприёмника пришлось отказаться по нескольким причинам:
+                            </p>
+                            <ul>
+                                <li>громоздкось самого механизма;</li>
+                                <li>невозможность найти оригинальные жетоны;</li>
+                                <li>отсутствие возможностей и времени на переделку механизма под актуальные денежные знаки.</li>
+                            </ul>
+                            <p>
+                                <a class="btn btn-primary" href="https://pikabu.ru/story/vtoraya_zhizn_taksofona_ili_chem_ya_na_mayskikh_prazdnikakh_zanimalsya_6697044" target="_blank">
+                                    Здесь больше подробностей, фото и видео
                                 </a>
                             </p>
                         </div>
@@ -376,17 +460,12 @@
                                 цветом RGB-ленты.
                             </p>
                             <p>
-                                <a class="btn btn-primary" href="https://pikabu.ru/story/kak_ya_svoy_yembilayt_delal_3859071">
+                                <a class="btn btn-primary" href="https://pikabu.ru/story/kak_ya_svoy_yembilayt_delal_3859071" target="_blank">
                                     Здесь чуть больше подробностей
                                 </a>
                             </p>
                         </div>
                     </div>
-
-
-
-
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
                 </div>
             </section>
 <!--            <hr class="m-0" />-->

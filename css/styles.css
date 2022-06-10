@@ -6080,7 +6080,7 @@ textarea.form-control-lg {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: #333;
   text-align: center;
   background: none;
   border: 0;
@@ -6129,11 +6129,11 @@ textarea.form-control-lg {
   } ]
 } */
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23333'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23333'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
 .carousel-indicators {
@@ -6160,7 +6160,7 @@ textarea.form-control-lg {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #333;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
@@ -11388,6 +11388,9 @@ p.lead {
     display: block;
   }
 }
+.social-icons {
+  margin-top: -1.5rem;
+}
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
@@ -11399,6 +11402,7 @@ p.lead {
   border-radius: 6rem;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  margin-top: 1.5rem;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
@@ -11406,6 +11410,14 @@ p.lead {
 .social-icons .social-icon:hover {
   background-color: #cf3;
   color: #333;
+}
+
+.social_button {
+  width: auto !important;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  text-decoration: none;
+  font-size: 1rem !important;
 }
 
 .dev-icons {
