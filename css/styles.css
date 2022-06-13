@@ -11507,6 +11507,10 @@ section.resume-footer {
     border-width: 0;
   }
 
+  .mousey::after {
+    content: "Hello";
+  }
+
   .scroller {
     margin-left: -17px;
     margin-top: 34px;
