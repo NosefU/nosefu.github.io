@@ -11476,6 +11476,7 @@ section.resume-footer {
   opacity: 0.75;
   box-sizing: content-box;
 }
+
 .scroller {
   width: 3px;
   height: 10px;
@@ -11486,8 +11487,37 @@ section.resume-footer {
   animation-timing-function: cubic-bezier(.15,.41,.69,.94);
   animation-iteration-count: infinite;
 }
-@keyframes scroll {
-  0% { opacity: 0;}
-  10% { transform: translateY(0); opacity: 1;}
-  100% { transform: translateY(15px); opacity: 0;}
+
+@media (pointer: fine) {
+  @keyframes scroll {
+    0% { opacity: 0;}
+    10% { transform: translateY(0); opacity: 1;}
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1;}
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+}
+
+@media (pointer: coarse) {
+  .mousey {
+    border-width: 0;
+  }
+
+  .scroller {
+    margin-left: -17px;
+    margin-top: 34px;
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 100% !important;
+  }
+
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1;}
+    100% { transform: translateY(-34px); opacity: 0;}
+  }
 }
