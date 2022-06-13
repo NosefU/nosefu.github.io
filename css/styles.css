@@ -11457,15 +11457,14 @@ section.resume-footer {
 
 
 .scroll-downs {
-  justify-content: center;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  margin: auto;
-
-  width :34px;
+  width: 34px;
   height: 55px;
+  position: static;
+  margin: -6rem auto 4rem;
 }
 
 .mousey {
