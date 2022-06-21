@@ -11520,3 +11520,7 @@ section.resume-footer {
     100% { transform: translateY(-34px); opacity: 0;}
   }
 }
+
+.resume-section-content > div[id] {
+  scroll-margin-top: 3rem;
+}
